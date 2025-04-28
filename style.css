@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('bg-image.png') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #f5f5dc; /* cor de fallback */
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 248, 220, 0.95); /* bege clarinho com leve transparência */
+    border: 2px solid #d3d3d3;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imagem-receita {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: #6b4c3b; /* cor café */
+}
+
+.descricao {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.infos {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.infos li {
+    margin-bottom: 5px;
+}
+
+.ingredientes, .modo-preparo {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.ingredientes li, .modo-preparo li {
+    margin-bottom: 8px;
+}
